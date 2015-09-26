@@ -2,8 +2,7 @@
 
   NOME: Gustavo de Paula Lourenço           -          Nº USP: 9312842            -         GitHub Username: gulourenco
   
-    Este repositório contém os programas propostos pelo Trabalho 1 da disciplina de 
-Linguagens de Programação e Aplicações fornecida pelo professor Adenilso Simão (ICMC-USP) à turma de Engenharia Mecânica (EESC-USP).
+    Este repositório contém os programas propostos pelo Trabalho 1 da disciplina de Linguagens de Programação e Aplicações fornecida pelo professor Adenilso Simão (ICMC-USP) à turma de Engenharia Mecânica (EESC-USP).
   
   1. FUNCIONAMENTO DOS PROGRAMAS
 
