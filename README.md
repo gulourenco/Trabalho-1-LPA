@@ -1,4 +1,4 @@
-# Trabalho-1-LPA
+# Trabalho 1 LPA
 
   NOME: Gustavo de Paula Lourenço           -          Nº USP: 9312842            -         GitHub Username: gulourenco
   
