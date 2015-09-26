@@ -1,7 +1,7 @@
 #include<stdio.h>                               
 #include<stdlib.h>
 
-void read_numbers(int v[], int max)                  //Função para ler as entradas dos números e armazená-la no vetor
+void read_numbers(int v[], int max)                  //Função para ler as entradas dos números e armazená-las no vetor
 {
   int i = 0;
   int num;
