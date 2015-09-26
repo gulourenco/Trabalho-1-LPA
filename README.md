@@ -7,7 +7,7 @@
   1. FUNCIONAMENTO DOS PROGRAMAS
 
     Os códigos dos programas foram desenvolvidos em c (código fonte .c), escritos e compilados no ambiente de desenvolvimeto integrado DEV-C++, versão 5.10, que utiliza a porta Mingw (no Windowns) do GCC (GNU Compiler Collection) como compilador dos executáveis (.exe). 
-    Em todos os programas escritos foram utilizadas as bibliotecas stdlib.h e stdio.h. além de entradas padrão.
+    Em todos os programas escritos foram utilizadas as bibliotecas stdlib.h e stdio.h. além de entradas padrão. 
     Os parâmetros de compilação utilizados foram:
 
   2. INSTRUÇÕES PARA EXECUÇÃO
