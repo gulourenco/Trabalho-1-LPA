@@ -57,7 +57,7 @@ main()
     		count++;
     		a++;
 		}
-		if(count>=b)                                  //Acho o maior numero de repetições (qual a maior frequência)
+		if(count>=b)                              //Acho o maior numero de repetições (qual a maior frequência)
 		{
 			b=count;
 		}
