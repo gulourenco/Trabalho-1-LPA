@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void read_numbers(int v[], int max)                  //Função para ler as entradas dos números
+void read_numbers(int v[], int max)                  //FunÃ§Ã£o para ler as entradas dos nÃºmeros
 {
   int i = 0;
   int num;
@@ -13,7 +13,7 @@ void read_numbers(int v[], int max)                  //Função para ler as entrad
   }
 }
   
-void insertion(int vet[], int n)                    //Função para ordenar o vetor de inteiro
+void insertion(int vet[], int n)                    //FunÃ§Ã£o para ordenar o vetor de inteiro
 {
     int i, j, temp;
         for (i = 1; i < n; i++)
@@ -35,20 +35,20 @@ void insertion(int vet[], int n)                    //Função para ordenar o veto
 main()
 {
 	int *vet;                                            //Declaro um vetor de inteiros
-	int i=0;                                             //Declaro algumas variáveis que serão utilizados ao longo do programa
+	int i=0;                                             //Declaro algumas variÃ¡veis que serÃ£o utilizados ao longo do programa
 	int a=0;
 	int b=0;
 	int n, count;
-	printf("Digite o numero de inteiros a serem lidos: "); //Entra com o número n que define o total de valores a serem lidos
+	printf("Digite o numero de inteiros a serem lidos (maior ou igual a 1): "); //Entra com o nÃºmero n que define o total de valores a serem lidos
 	scanf("%d", &n);
-	while (n<1)                                            //Para não ocorrer que a lista seja nula
+	while (n<1)                                            //Para nÃ£o ocorrer que a lista seja nula
 	{
-		printf("Eh necessário pelo menos um número inteiro para o programa funcionar\nDigite um valor maior ou igual a um:");
+		printf("Eh necessÃ¡rio pelo menos um nÃºmero inteiro para o programa funcionar\nDigite um valor maior ou igual a um:");
 		scanf("%d", &n);
 	}
-	vet=(int*)malloc(sizeof(int)*n);                    //Alocação de memória para um vetor com n elementos
+	vet=(int*)malloc(sizeof(int)*n);                    //AlocaÃ§Ã£o de memÃ³ria para um vetor com n elementos
 	read_numbers(vet, n);                               //Leitura das entradas e armazenamento no vetor
-	insertion(vet, n);                                  //Ordenação do vetor
+	insertion(vet, n);                                  //OrdenaÃ§Ã£o do vetor
     while (i<n)
     {
     	count=0;
@@ -57,7 +57,7 @@ main()
     		count++;
     		a++;
 		}
-		if(count>=b)                                  //Acho o maior numero de repetições (qual a maior frequência)
+		if(count>=b)                                  //Acho o maior numero de repetiÃ§Ãµes (qual a maior frequÃªncia)
 		{
 			b=count;
 		}
@@ -67,7 +67,7 @@ main()
     i=0;
 	a=0;
 	count=0;
-    while(i<n)                                         //Percorre o vetor e imprime os elementos que se repetem em maior frequência
+    while(i<n)                                         //Percorre o vetor e imprime os elementos que se repetem em maior frequÃªncia
     {
     	count=0;
     	while(vet[i]==vet[a])
@@ -81,6 +81,6 @@ main()
 		}
 		i++;
     }
-    free(vet);                                          //Desalocação da memória
+    free(vet);                                          //DesalocaÃ§Ã£o da memÃ³ria
     getch();
 }
