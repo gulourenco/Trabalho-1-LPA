@@ -8,6 +8,7 @@
 
     Os códigos dos programas foram desenvolvidos em c (código fonte .c).
     Foram escritos e compilados no ambiente de desenvolvimeto integrado DEV-C++, versão 5.10.0.0, que utiliza a porta Mingw (no Windowns) do GCC (GNU Compiler Collection) como compilador dos executáveis (.exe). 
+    A arquitetura utilizada foi Windowns 7.
     Em todos os programas escritos foram utilizadas as bibliotecas stdlib.h e stdio.h, além de entradas padrão.
     Os parâmetros de compilação utilizados foram os comumentes usados no ambiente do DEV-C++.
 
