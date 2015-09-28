@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 
-void insertion(int vet[], int n)                    //Função para ordenar os elementos do vetor
+void insertion(int vet[], int n)                    //FunÃ§Ã£o para ordenar os elementos do vetor
 {
     int i, j, temp;
         for (i = 1; i < n; i++)
@@ -26,28 +26,28 @@ main()
 	int *vet;
 	int i = 0;
 	int j, num, n;
-	printf("Digite o numero de inteiros a serem lidos: ");         //Entra com o número que define o total de valores a serem lidos para poder alocar memória
+	printf("Digite o numero de inteiros a serem lidos(maior ou igual a 1): ");      //Entra com o nÃºmero que define o total de valores a serem lidos para poder alocar memÃ³ria
 	scanf("%d", &n);
-	while (n<1)                                                    //Para não ocorrer que a lista seja nula
+	while (n<1)                                                    //Para nÃ£o ocorrer que a lista seja nula
 	{
-		printf("Eh necessário pelo menos um número inteiro para o programa funcionar\nDigite um valor maior ou igual a um:");
+		printf("Eh necessÃ¡rio pelo menos um nÃºmero inteiro para o programa funcionar\nDigite um valor maior ou igual a um:");
 		scanf("%d", &n);
 	}
-	vet=(int*)malloc(sizeof(int)*n);                               //Alocação da meória
+	vet=(int*)malloc(sizeof(int)*n);                               //AlocaÃ§Ã£o da meÃ³ria
 	printf("\nDigite-os:\n\n");
 	while((i < n) && (scanf("%d", &num) > 0))                      //Armazena os valores no vetor
 	{
         vet[i] = num;
         i++;
     }
-    insertion(vet,n);                                              //Ordenação do vetor
+    insertion(vet,n);                                              //OrdenaÃ§Ã£o do vetor
 	printf("\nO(s) elemento(s) que ocorre(m) uma unica vez eh(sao):\n\n");
-	if(vet[1]>vet[0])                                              //Verifica se o primeiro elemto é único, se sim, o imprime
+	if(vet[1]>vet[0])                                              //Verifica se o primeiro elemento Ã© Ãºnico, se sim, o imprime
     {
     	printf("%d ", vet[0]);
 	}
 	i=1;
-    while(i<n)                                                     //Verifica as demais posições do vetor e imprime elementos únicos
+    while(i<n)                                                     //Verifica as demais posiÃ§Ãµes do vetor e imprime elementos Ãºnicos
     {
     	if(vet[i+1]>vet[i]&&vet[i]!=vet[i-1])
     	{
@@ -59,6 +59,6 @@ main()
 			i++;
 		}
 	}
-	free(vet);                                                    //Desalocação da memória
+	free(vet);                                                    //DesalocaÃ§Ã£o da memÃ³ria
 	getch();
 }
